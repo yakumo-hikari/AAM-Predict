@@ -65,8 +65,8 @@ AAM-Predict-Demo/
 │ └── logo.png
 
 └── screenshots/
-├── home.png
-├── prediction.png
+├── demo.png
+├── compare.png
 └── dashboard.png
 
 
