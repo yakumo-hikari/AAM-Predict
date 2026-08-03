@@ -1,40 +1,95 @@
 # AAM-Predict
 Predictive Clinical Decision Support Platform
 
-Overview
-
-AAM Predict is a research prototype designed to analyze longitudinal laboratory biomarkers and estimate possible disease trajectories.
-
-Features
-
-✔ Disease trajectory prediction
-
-✔ Longitudinal biomarker analysis
-
-✔ Clinical decision support
-
-✔ Interactive web interface
-
-✔ Predictive Pyramid
-
 Current MVP
 
 Current version demonstrates prediction using thyroid biomarkers as the first validation module.
 
-Demo
+---
 
-Website
+## Overview
 
-Video
+Traditional laboratory interpretation often focuses on isolated measurements.
 
-Presentation
+AAM Predict investigates a longitudinal perspective by analyzing:
 
-Repository Structure
-docs/
+- biomarker dynamics over time;
+- compensatory capacity;
+- trajectory patterns;
+- predictive uncertainty.
 
-frontend/
+The project demonstrates a concept of computational clinical decision support.
 
-examples/
-Proprietary Notice
+---
 
-The mathematical prediction engine is not included in this public repository because it represents the proprietary research component of the project currently undergoing validation.
+## Features
+
+- Longitudinal biomarker analysis concept
+- Predictive risk assessment framework
+- Compensatory reserve evaluation
+- Biological trajectory visualization
+- Clinical decision support concept
+
+---
+
+## Demo
+
+Demo application:
+
+[Insert Streamlit/Replit deployment link]
+
+---
+
+## Technologies
+
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Altair
+
+---
+
+## Repository Structure
+
+
+AAM-Predict-Demo/
+
+├── app.py
+├── engine.py
+├── requirements.txt
+├── README.md
+├── LICENSE
+
+├── assets/
+│ └── logo.png
+
+└── screenshots/
+├── home.png
+├── prediction.png
+└── dashboard.png
+
+
+---
+
+## Repository Notice
+
+This repository contains a public demonstration version created for President Tech Award.
+
+The following components are intentionally excluded:
+
+- proprietary mathematical algorithms;
+- calibration coefficients;
+- internal validation datasets;
+- expert interpretation modules;
+- private analytical engine.
+
+The public version demonstrates the concept, interface, and project architecture.
+
+---
+
+## License
+
+All Rights Reserved.
+
+See LICENSE file for details.
