@@ -36,7 +36,7 @@ The project demonstrates a concept of computational clinical decision support.
 
 Demo application:
 
-[Insert Streamlit/Replit deployment link]
+https://yoshiro-hikari-aampredict.streamlit.app/
 
 ---
 
